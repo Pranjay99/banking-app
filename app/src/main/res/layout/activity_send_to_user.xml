@@ -9,14 +9,15 @@
     tools:context=".UI.SendToUserList">
 
     <TextView
+        android:background="#2774E8"
         android:id="@+id/header"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin ="10dp"
+        android:layout_height="50dp"
+        android:layout_margin ="0dp"
         android:fontFamily="@font/averia_serif_libre_light"
         android:gravity="center_horizontal|center_vertical"
         android:text="Select a user to transfer money"
-        android:textColor="#0099ff"
+        android:textColor="#fff"
         android:textSize="20sp"
         android:textStyle="bold"/>
 

@@ -4,8 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:cardCornerRadius="10dp"
-    app:cardElevation="8dp"
-    android:layout_margin="10dp">
+    app:cardElevation="10dp"
+    android:layout_margin="10dp"
+    android:backgroundTint="#A1F4EB">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -38,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Rs."
-                android:textColor="@color/black"
+                android:textColor="#259112"
                 android:fontFamily="@font/armata"
                 android:textSize="16sp"
                 android:layout_margin="2dp"/>
@@ -50,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:text="7000"
                 android:fontFamily="@font/armata"
-                android:textColor="@color/black"
+                android:textColor="#259112"
                 android:textSize="16sp"/>
             <TextView
                 android:id="@+id/slash"
